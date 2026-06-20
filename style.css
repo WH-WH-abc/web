@@ -1,0 +1,18 @@
+h1{
+    color: #f0fdff !important;
+    font-size: 28px;
+}
+
+body {
+    background-color: #9c9c9c !important;   /*背景颜色*/
+}
+
+a {
+    color: #0740ac;
+    text-decoration: none;    /* ← 加上这行，去掉默认下划线 */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* ← 悬停时才出现下划 */
+}
